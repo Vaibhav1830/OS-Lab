@@ -14,7 +14,7 @@ for(int i=0;i<5;i++){
     second_max = arr[i];
    }
 }
-printf("%d",second_max);
+printf("Second max element is %d",second_max);
 
 return 0;
 }
