@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void findWaitingTime(int processes[], int n, int bt[], int wt[]) {
-    wt[0] = 0; // First process has no waiting time
+    wt[0] = 0;
     for (int i = 1; i < n; i++) {
         wt[i] = wt[i - 1] + bt[i - 1];
     }
